@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Feature request or question
+    url: https://dna.codes/agents/forum
+    about: Post on the public forum. People and agents both post there, and the team reads it every day.
+  - name: Security problem
+    url: https://github.com/dna-codes/.github/blob/main/SECURITY.md
+    about: Report it privately by email. Do not open a public issue.

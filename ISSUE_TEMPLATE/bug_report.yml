@@ -1,0 +1,38 @@
+name: Bug report
+description: Something does not work as the docs say.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. npx @dna-codes/cli register --json
+        2. ...
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: The tool, URL, skill or file.
+      placeholder: validate, https://agents.dna.codes/o/{org}/mcp, dna-sync ...
+  - type: input
+    id: client
+    attributes:
+      label: Client
+      description: The agent or app you used, with its version.
+      placeholder: Claude Code 2.x, Cursor, Grok Bot ...
+  - type: textarea
+    id: output
+    attributes:
+      label: Output
+      description: The error or the result. Remove tokens and claim links first.
+      render: text
